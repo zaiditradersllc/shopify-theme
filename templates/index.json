@@ -1,20 +1,165 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "main": {
-      "type": "hello-world",
-      "settings": {}
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Level Up Your Look",
+            "heading_size": "h0"
+          }
+        },
+        "subheading": {
+          "type": "text",
+          "settings": {
+            "text": "Anime-inspired fashion & beauty, drop by drop.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop New Drops",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "subheading",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "image_behavior": "none",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "This Week's Gacha Drop",
+        "heading_size": "h2",
+        "description": "Limited stock, fan-favorite designs \u2014 gone when they're gone.",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "value_props": {
+      "type": "multicolumn",
+      "blocks": {
+        "col1": {
+          "type": "column",
+          "settings": {
+            "title": "Lightning-Fast Shipping",
+            "text": "<p>Orders ship within 24 hours so your next obsession arrives fast.</p>"
+          }
+        },
+        "col2": {
+          "type": "column",
+          "settings": {
+            "title": "Quality You Can Trust",
+            "text": "<p>Every piece is quality-checked before it ships to you.</p>"
+          }
+        },
+        "col3": {
+          "type": "column",
+          "settings": {
+            "title": "Made For Fans, By Fans",
+            "text": "<p>Curated by people who love anime and gaming as much as you do.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "col1",
+        "col2",
+        "col3"
+      ],
+      "settings": {
+        "title": "Why Fans Choose Us",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_desktop": 3,
+        "column_padding": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "testimonials": {
+      "type": "multicolumn",
+      "blocks": {
+        "review1": {
+          "type": "column",
+          "settings": {
+            "title": "\u2605\u2605\u2605\u2605\u2605 Jenna R., Verified Buyer",
+            "text": "<p>\"This is exactly what I was looking for \u2014 quality is amazing and shipping was so fast!\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "review1"
+      ],
+      "settings": {
+        "title": "Loved by 10,000+ Fans",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_desktop": 3,
+        "column_padding": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "image_banner",
+    "featured_collection",
+    "value_props",
+    "testimonials"
   ]
 }
